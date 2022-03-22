@@ -55,7 +55,12 @@ def convert_seconds(seconds):
     return "%02d:%02d" % (minutes, seconds)
 
 
-async def play_tg_file(c: Client, m: Message, replied: Message = None, link: str = None):
+@Client.on_message(command(["play", f"play@{BOT_USERNAME}"]) & other_filters)
+@check_blacklist()
+@require_admin(permissions=["can_manage_voice_chats", "can_delete_messages", "can_invite_users"], self=True)
+async def audio_stream(c: Client, m: Message):
+    await m.delete()
+    replied = m.reply_to_message
     chat_id = m.chat.id
     user_id = m.from_user.id
     if link:
