@@ -96,5 +96,5 @@ Distributed under the [GNU General Public License v3.0 License](https://github.c
 - [Laky's](https://github.com/Laky-64) for [``py-tgcalls``](https://github.com/pytgcalls/pytgcalls)
 - [Dan](https://github.com/delivrance) for [``Pyrogram``](https://github.com/pyrogram)
 
-[![𝙶𝙷𝙾𝚂𝚃 𝙼𝚄𝚂𝙸𝙲](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2FDARKAMAN6%2Fvideo-stream)
+[![𝙶𝙷𝙾𝚂𝚃 𝙼𝚄𝚂𝙸𝙲](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2FROYAL-KING-ON-FIRE%2Fvideo-stream)
 
